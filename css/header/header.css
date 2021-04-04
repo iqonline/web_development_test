@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'EuropeDemiNormal';
-  src: url('/font/europedemi-normal.woff2') format('woff2'),
-    url('/font/europedemi-normal.woff') format('woff');
+  src: url('/web_development_test_gubin_ds/font/europedemi-normal.woff2') format('woff2'),
+    url('/web_development_test_gubin_ds/font/europedemi-normal.woff') format('woff');
   font-display: swap;
   font-weight: 400;
   font-style: normal;
