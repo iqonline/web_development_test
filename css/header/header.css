@@ -1,0 +1,121 @@
+@font-face {
+  font-family: 'EuropeDemiNormal';
+  src: url('/web_development_test_gubin_ds/font/europedemi-normal.woff2') format('woff2'),
+    url('/web_development_test_gubin_ds/font/europedemi-normal.woff') format('woff');
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  max-width: 1002px;
+}
+
+.header__top  {
+  padding: 0px 0px 20px 0px;
+}
+
+.header__contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__menu {
+	width: 100%;
+	display: table;
+}
+
+.header__menu-list {
+	display: table-row;
+}
+
+.header__menu-item {
+	display: table-cell;
+  border-right: solid 1px #eb5017;
+  background: #000;
+}
+
+.header__menu-item:last-child {
+  border: none;
+}
+
+.header__menu-list .header__menu-item:hover, .header__menu-link:hover {
+  background-color: #eb5017;
+}
+
+.header__menu-list .header__menu-link {
+  display: flex;
+  justify-content: center;
+	padding: 12px 0px 12px 0px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+	color: #fff;
+	text-align: center;
+}
+
+.header__menu-link {
+  text-decoration: none;
+}
+
+.header__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__contacts {
+  padding: 25px 15px 0px 0px;
+  display: flex;
+}
+
+.header__contacts a {
+  text-decoration: none;
+  color: #eb5017;
+}
+
+.header__tel-number-first {
+  font-family: 'EuropeDemiNormal';
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.header__tel-number-second {
+  font-family: 'EuropeDemiNormal';
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.header__breadcrumb {
+  margin: 0; padding: 0;
+}
+
+.header__breadcrumb-list {
+  list-style-type: none;
+  padding-left: 15px;
+}
+
+.header__breadcrumb-list li {
+  display: inline-block;
+}
+
+.header__breadcrumb-list li::before {
+  content: '/';
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.header__breadcrumb-list li:first-child::before {
+  content: '';
+}
+
+.header__breadcrumb-link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #000;
+}
+
+.header__breadcrumb-item-active {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #000;
+}
