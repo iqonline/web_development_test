@@ -1,0 +1,30 @@
+.container {
+  max-width: 1002px;
+}
+
+.footer {
+  margin: 0;
+}
+
+.footer__list {
+  margin: 0;
+  padding-left: 60px;
+  display: flex;
+  list-style-type: none;
+  height: 55px;
+  background-color: black;
+}
+
+.footer__link {
+  padding: 12px 0px 0px 0px;
+  color: white;
+}
+
+.footer__item {
+  padding: 10px 30px 0px 0px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+	color: #fff;
+	text-align: center;
+}
